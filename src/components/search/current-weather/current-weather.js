@@ -8,8 +8,18 @@ const CurrentWeather = () => {
                     <p className = "city">New York</p>
                     <p className = "weather-description">Sunny</p>
                 </div>
+            
+                <img alt="weather" className="weather-icon" src="icons/01d.png"/>
             </div>
-            <img alt="weather" className="weather-icon" src="icons/01d.png"/>
+            
+            <div className = "bottom">
+                <p className = "temperature">18C</p>
+                <div className = "details">
+                    <div className = "parameter-row">
+
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
